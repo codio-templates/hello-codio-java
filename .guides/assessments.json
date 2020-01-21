@@ -1,0 +1,215 @@
+[
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-2650837085",
+  "source": {
+   "name": "Demo Question",
+   "showName": false,
+   "instructions": "## Reading Question\nRearrange the code blocks below to create a loop that iterates over an array and prints each element of the array. \n**Note:** some of the code blocks will not be used.",
+   "initial": "String[] animals = {\"cat\", \"dog\", \"fish\", \"rabbit\"};\nfor(int i = 0; i < animals.length; i++) {\n    System.out.println(\"Animal #\" + i + \" is a \" + animals[i]);\n}\nfor(int i = 1; i < animals.length; i++) { #distractor\nfor(int i = 0; i <= animals.length; i++) { #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "1",
+   "guidance": "The first line needs to be the array declaration. You cannot iterate over an array that does not exist. \n\nThere are three possible choices for the loop. Arrays start at index 0 and go until array.length - 1. That means the correct loop declaration has `int i = 0; i < animals.length;` in it.\n\nDon't forget to indent the print statement and close the loop curly brace.\n\n```java\nString[] animals = {\"cat\", \"dog\", \"fish\", \"rabbit\"};\nfor(int i = 0; i < animals.length; i++) {\n    System.out.println(\"Animal #\" + i + \" is a \" + animals[i]);\n}\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": true,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [
+     "code/Demo.java",
+     "python_demo.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/Demo.java"
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1981899322",
+  "source": {
+   "name": "Practice MCQ",
+   "showName": false,
+   "instructions": "## Multiple Choice Question\nHow did the Java programming language get its name?",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "448c7d4d-72d0-9b3e-3589-670669d72e51",
+     "correct": false,
+     "answer": "the Indonesian island the creator was from"
+    },
+    {
+     "_id": "d84086ba-a7d2-a56f-5797-d25d50b7c06f",
+     "correct": true,
+     "answer": "the amount of coffee consumed while developing the language"
+    },
+    {
+     "_id": "7a53cab5-f47f-40cb-d68d-86470ef77d54",
+     "correct": false,
+     "answer": "the JavaScript language it was inspired by "
+    }
+   ],
+   "guidance": "Java was named by its creator, James Gosling, of Sun Microsystems for the amount of coffee consumed while developing the language.\n",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "incorrectPoints": 0,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Multiple Choice"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "fill-in-the-blanks",
+  "taskId": "fill-in-the-blanks-2837664483",
+  "source": {
+   "name": "Fill in the Blank Demo Question",
+   "showName": false,
+   "instructions": "## Fill in the Blank\nFill in the blanks below.",
+   "text": "True or False: Java is a compiled language. <<<True>>>\nTrue or False: You do not use semi-colons at the end of each line of code in Java. <<<False>>>",
+   "guidance": "Java is a compiled language.\nJava does use semi-colons at the end of each line of code.",
+   "showGuidanceAfterResponse": true,
+   "showExpectedAnswer": true,
+   "points": 1,
+   "showValues": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Fill in the Blanks"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": "",
+   "tokens": {
+    "blank": [
+     "True",
+     "False"
+    ],
+    "text": [
+     "True or False: Java is a compiled language. ",
+     0,
+     "\nTrue or False: You do not use semi-colons at the end of each line of code in Java. ",
+     0
+    ]
+   }
+  }
+ },
+ {
+  "type": "parsons-puzzle",
+  "taskId": "parsons-puzzle-21366716",
+  "source": {
+   "name": "Parsons Problem",
+   "showName": false,
+   "instructions": "## Parson's Problem\nRearrange the code blocks below into the proper order. **Note**, not all of the code blocks will be used.",
+   "initial": "The first code block\nThe second code block\nThe third code block\nI am not correct #distractor\nI am not correct #distractor",
+   "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+   "grader": "",
+   "guidance": "The first code block\nThe second code block\nThe third code block",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Parsons Puzzle"
+     }
+    ],
+    "files": [],
+    "opened": []
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ },
+ {
+  "type": "code-output-compare",
+  "taskId": "code-output-compare-4266318069",
+  "source": {
+   "name": "Standard Code Test",
+   "showName": true,
+   "instructions": "When you have finished this assignment, click the Submit button below.",
+   "command": "java -cp code/ Test",
+   "preExecuteCommand": "javac code/Test.java",
+   "guidance": "One way to solve this programming assignment is:\n\n```java\n    Scanner input = new Scanner(System.in);\n    \n    if(input.hasNextInt()) {\n      int num = input.nextInt();\n      System.out.print(num*3);\n    }\n    else { System.out.print(\"Please enter an integer\"); }\n```",
+   "showGuidanceAfterResponse": true,
+   "points": 1,
+   "oneTimeTest": false,
+   "options": {
+    "ignoreCase": true,
+    "ignoreWhitespaces": true,
+    "ignoreNewline": true,
+    "matchSubstring": false,
+    "timeout": 30
+   },
+   "showExpectedAnswer": true,
+   "sequence": [
+    {
+     "arguments": "",
+     "input": "3",
+     "output": "9",
+     "showFeedback": true,
+     "feedback": "Your output should be 3 times the inputted value"
+    },
+    {
+     "arguments": "",
+     "input": "a",
+     "output": "Please enter an integer",
+     "showFeedback": true,
+     "feedback": "If the user enters a non-integer value, you should print \"Please enter an integer\""
+    }
+   ],
+   "metadata": {
+    "tags": [
+     {
+      "name": "Assessment Type",
+      "value": "Standard Code Test"
+     }
+    ],
+    "files": [
+     "code/Test.java",
+     "code/code_test.py"
+    ],
+    "opened": [
+     {
+      "type": "file",
+      "panelNumber": 0,
+      "content": "code/Test.java"
+     },
+     {
+      "type": "terminal",
+      "panelNumber": 1,
+      "content": ""
+     }
+    ]
+   },
+   "bloomsObjectiveLevel": "",
+   "learningObjectives": ""
+  }
+ }
+]
