@@ -156,7 +156,7 @@
    "instructions": "When you have finished this assignment, click the Submit button below.",
    "command": "java -cp code/ Test",
    "preExecuteCommand": "javac code/Test.java",
-   "guidance": "One way to solve this programming assignment is:\n\n```java\n    Scanner input = new Scanner(System.in);\n    \n    if(input.hasNextInt()) {\n      int num = input.nextInt();\n      System.out.print(num*3);\n    }\n    else { System.out.print(\"Please enter an integer\"); }\n```",
+   "guidance": "One way to solve this programming assignment is:\n\n```java\n    Scanner input = new Scanner(System.in);\n    \n    if(input.hasNextInt()) {\n      int num = input.nextInt();\n      System.out.println(num*3);\n    }\n    else { System.out.println(\"Please enter an integer\"); }\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
