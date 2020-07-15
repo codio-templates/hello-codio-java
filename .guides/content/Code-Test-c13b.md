@@ -6,7 +6,6 @@ Write a program that takes an integer from the user. Return the number multiplie
 
 `Please enter an integer`
 
-[Code Visualizer](open_tutor code/Test.java)
 {Try it | terminal}(sh .guides/bg.sh javac code/Test.java java -cp code/ Test )
 
 <table><tbody ><tr><td><details><summary>
@@ -20,9 +19,9 @@ Here is one solution to the problem. You can copy/paste it into the IDE if you w
     
     if(input.hasNextInt()) {
       int num = input.nextInt();
-      System.out.print(num*3);
+      System.out.println(num*3);
     }
-    else { System.out.print("Please enter an integer"); }
+    else { System.out.println("Please enter an integer"); }
 ```
 
 
