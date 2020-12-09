@@ -6,7 +6,7 @@ Java allows you to iterate over an array. That means starting with the first ele
 
 ![Iterating Over a List](.guides/img/iterating-list-variable-name.png)
 
-<details><summary>**numbers, numbers[i], and numbers.length**</summary>In the example below, the iteration variable is `i` and the list is named `numbers`. This means that `numbers[i]` represents the current element being accessed by the loop. `numbers.length` is used in the loop condition to ensure that `numbers[i]` does not attempt to access an element that does not exist.</details>
+<details><summary><b>numbers, numbers[i], and numbers.length</b></summary>In the example below, the iteration variable is <code>i</code> and the list is named <code>numbers</code>. This means that <code>numbers[i]</code> represents the current element being accessed by the loop. <code>numbers.length</code> is used in the loop condition to ensure that <code>numbers[i]</code> does not attempt to access an element that does not exist.</details>
 
 Paste the following code into the IDE on the left to try it out.
 ```java
