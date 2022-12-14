@@ -1,0 +1,44 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "448c7d4d-72d0-9b3e-3589-670669d72e51",
+				"answer": "the Indonesian island the creator was from",
+				"correct": false
+			},
+			{
+				"_id": "d84086ba-a7d2-a56f-5797-d25d50b7c06f",
+				"answer": "the amount of coffee consumed while developing the language",
+				"correct": true
+			},
+			{
+				"_id": "7a53cab5-f47f-40cb-d68d-86470ef77d54",
+				"answer": "the JavaScript language it was inspired by ",
+				"correct": false
+			}
+		],
+		"bloomsObjectiveLevel": "",
+		"guidance": "Java was named by its creator, James Gosling, of Sun Microsystems for the amount of coffee consumed while developing the language.\n",
+		"incorrectPoints": 0,
+		"instructions": "## Multiple Choice Question\nHow did the Java programming language get its name?",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Practice MCQ",
+		"points": 1,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponse": true,
+		"showName": false
+	},
+	"taskId": "multiple-choice-1981899322",
+	"type": "multiple-choice"
+}

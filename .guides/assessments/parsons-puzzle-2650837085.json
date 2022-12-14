@@ -1,0 +1,37 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"grader": "1",
+		"guidance": "The first line needs to be the array declaration. You cannot iterate over an array that does not exist. \n\nThere are three possible choices for the loop. Arrays start at index 0 and go until array.length - 1. That means the correct loop declaration has `int i = 0; i \u003c animals.length;` in it.\n\nDon't forget to indent the print statement and close the loop curly brace.\n\n```java\nString[] animals = {\"cat\", \"dog\", \"fish\", \"rabbit\"};\nfor(int i = 0; i \u003c animals.length; i++) {\n    System.out.println(\"Animal #\" + i + \" is a \" + animals[i]);\n}\n```",
+		"initial": "String[] animals = {\"cat\", \"dog\", \"fish\", \"rabbit\"};\nfor(int i = 0; i \u003c animals.length; i++) {\n    System.out.println(\"Animal #\" + i + \" is a \" + animals[i]);\n}\nfor(int i = 1; i \u003c animals.length; i++) { #distractor\nfor(int i = 0; i \u003c= animals.length; i++) { #distractor",
+		"instructions": "## Reading Question\nRearrange the code blocks below to create a loop that iterates over an array and prints each element of the array. \n**Note:** some of the code blocks will not be used.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [
+				"code/Demo.java",
+				"python_demo.py"
+			],
+			"opened": [
+				{
+					"content": "code/Demo.java",
+					"panelNumber": 0,
+					"type": "file"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				}
+			]
+		},
+		"name": "Demo Question",
+		"oneTimeTest": true,
+		"options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+		"points": 1,
+		"showGuidanceAfterResponse": true,
+		"showName": false
+	},
+	"taskId": "parsons-puzzle-2650837085",
+	"type": "parsons-puzzle"
+}
