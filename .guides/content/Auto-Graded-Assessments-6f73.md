@@ -19,7 +19,7 @@ The default multiple choice question only has two answers. You can add as many a
 {Check It!|assessment}(multiple-choice-1981899322)
 
 ### Fill in the Blank
-You can write whatever you like (sentences, code examples, etc.) for fill in the blank questions. Surround the "blanks" with `<<<` and `>>>`. You can tell Codio to show the students the possible answers. Each blank will have a drop down menu with all of the choices. You can also use [regular expressions](https://docs.codio.com/courses/assessments/#regular-expression-support) to parse student answers for a more granular evaluation.
+You can write whatever you like (sentences, code examples, etc.) for fill in the blank questions. Surround the "blanks" with `<<<` and `>>>`. You can tell Codio to show the students the possible answers. Each blank will have a drop down menu with all of the choices. You can also use [regular expressions](https://docs.codio.com/instructors/authoring/assessments/fill-in-blanks.html#fill-in-the-blanks) to parse student answers for a more granular evaluation.
 
 {Check It!|assessment}(fill-in-the-blanks-2837664483)
 
