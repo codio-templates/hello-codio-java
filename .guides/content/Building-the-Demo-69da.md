@@ -10,7 +10,7 @@ Instruction through Codio is built around the guides feature. This is a brief de
 You’ll need to be in Edit Mode. From the top tool bar menu, select  **Tools->Guide->Edit**.
 
 
-![Selecting Tools->Guide->Edit from the file tree](.guides/img/editGuide.png)
+![Select Tools->Guide->Edit from the Codio menu](.guides/img/editGuide.png)
 |||
 
 
@@ -34,7 +34,7 @@ Guides are authored with [markdown](https://docs.codio.com/instructors/authoring
 ### Images
 You will notice a folder called `.guides` in the File Tree. To view the File Tree, select **View->File Tree**. All of the information in this folder is hidden from students. There is a subfolder called `img` where you can upload any images you want to appear in the guide. Right-click on the `img` folder and select `Upload...`.
 
-![The pop-up menu display an option to upload a file along with other file related activities.](.guides/img/upload.png)
+![The pop-up menu displays an option to upload a file along with other file related activities.](.guides/img/upload.png)
 
 Add the image to the guide using markdown syntax or by dragging the image file from the directory tree onto the guide page where you want to insert the image.
 

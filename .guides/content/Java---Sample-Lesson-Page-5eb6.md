@@ -4,7 +4,7 @@
 
 Java allows you to iterate over an array. That means starting with the first element and progressing through to the end of the array. Using a for loop is the easiest way to iterate over an array.
 
-![Iterating Over a List](.guides/img/iterating-list-variable-name.png)
+![A list of integers named numbers containing the number 1,2,3,4. A loop using i as the loop variable starting with i=0 with an end condition of i < numbers.length, the increments by one in each iteration. The line executed in this loop is System.out.println for each i element of the numbers list](.guides/img/iterating-list-variable-name.png)
 
 <details><summary><b>numbers, numbers[i], and numbers.length</b></summary>In the example below, the iteration variable is <code>i</code> and the list is named <code>numbers</code>. This means that <code>numbers[i]</code> represents the current element being accessed by the loop. <code>numbers.length</code> is used in the loop condition to ensure that <code>numbers[i]</code> does not attempt to access an element that does not exist.</details>
 
